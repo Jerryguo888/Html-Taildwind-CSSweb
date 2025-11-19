@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>你可以自己取</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body class="p-6 space-y-10">
+    <!-- ===========================================
+         Tailwind CSS 樣式示範（下面開始是 Tailwind）
+         =========================================== -->
+
+    <!-- ======================
+         Tailwind：色彩示範
+         ====================== -->
+    <h2>Tailwind 色彩示範</h2>
+    <hr class="mb-4" />
+
+    <h1 class="bg-blue-100 text-blue-900">淺藍背景 / 深藍字</h1>
+    <p class="text-red-500">紅色字</p>
+    <h3 class="text-orange-700">橘色字</h3>
+    <h4 class="text-yellow-500">黃色字</h4>
+    <h2 class="bg-cyan-400 text-cyan-900">青色背景 / 青色字</h2>
+    <p class="bg-[#D56C90] text-[#5B1A31]">Hex Color字</p>
+    <hr class="mb-8" />
+
+    <!-- ======================
+         Tailwind：字級與行高
+         ====================== -->
+    <h2>Tailwind 字級 / 行高</h2>
+    <hr class="mb-4" />
+
+    <h1 class="font-bold">粗體字</h1>
+    <p class="text-lg">正常字體</p>
+    <h3 class="text-8xl">8xl字體</h3>
+    <h4 class="text-xs">極小字體</h4>
+    <h2 class="text-[27px]">27px大小的字</h2>
+    <h2 class="text-[4rem]">4rem的字</h2>
+
+    <h2 class="leading-6">預設行高</h2>
+    <h2 class="leading-[200px]">上下行距 200px</h2>
+    <hr class="mb-8" />
+
+    <!-- ======================
+         邊框示範
+         ====================== -->
+    <h2>邊框示範</h2>
+    <hr class="mb-4" />
+
+    <div class="max-w-lg ml-8 mr-auto p-4 mt-4 bg-gray-50 border border-gray-300 rounded-xl space-y-4">
+        <h1 class="border-black border-2">黑色框 border為2</h1>
+        <p class="border-red-600 border-8">紅色框 border為8</p>
+        <h3 class="border-[#4F6F0D] border-[5px]">綠色框</h3>
+        <h4 class="border-black border-2 rounded-lg">黑色圓角邊框</h4>
+        <h2 class="border-black border-x-2 border-y-8 rounded-[20px]">不均勻邊框與自訂圓角</h2>
+        <h2 class="border-yellow-500 border-2 rounded-r-3xl rounded-l-none">單邊圓角與清除圓角</h2>
+    </div>
+    <hr class="mb-8" />
+
+    <!-- ======================
+         寬度 / 高度示範
+         ====================== -->
+    <h2>寬度 / 高度示範</h2>
+    <hr class="mb-4" />
+
+    <div class="w-56 h-56 bg-blue-500"></div>
+    <hr class="mb-8" />
+
+    <!-- ======================
+         Margin / Padding 示範
+         ====================== -->
+    <h2>Margin / Padding 示範</h2>
+    <hr class="mb-4" />
+
+    <div class="bg-gray-200 p-4 m-4">
+        <p class="mt-2 text-base">這段落有內邊距 p-4 和外邊距 m-4。</p>
+    </div>
+
+    <div class="bg-gray-300 p-[3rem] m-0 mb-4">
+        <h3 class="text-xl">這是巨大的內邊距 p-[3rem]</h3>
+    </div>
+
+    <div class="bg-blue-200 p-4 m-2 mb-4">
+        <p class="text-base">這是 p-4 和 m-2 的元素</p>
+    </div>
+
+    <div class="bg-blue-300 p-8 m-0 mb-8">
+        <p class="text-base">更大內邊距 p-8 的元素</p>
+    </div>
+
+    <div class="bg-green-200 m-4">
+        <p class="text-base">這是 m-4 的元素</p>
+    </div>
+    <hr class="mb-8" />
+
+    <!-- ======================
+         Flex 版面示範
+         ====================== -->
+    <h2>Flex 版面示範</h2>
+    <hr class="mb-4" />
+
+    <div class="flex justify-between items-center bg-gray-300 p-4">
+        <div class="bg-red-500 p-4">項目 1</div>
+        <div class="bg-yellow-500 p-4">項目 2</div>
+        <div class="bg-green-500 p-4">項目 3</div>
+    </div>
+
+    <div class="flex justify-center items-center border-2 border-black mt-4">
+        <div>你好</div>
+    </div>
+    <hr class="mb-8" />
+
+</body>
+</html>
