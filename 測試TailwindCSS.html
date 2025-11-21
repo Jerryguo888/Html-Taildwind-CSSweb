@@ -64,12 +64,43 @@
     <hr class="mb-8" />
 
     <!-- ======================
-         寬度 / 高度示範
+         box 寬度 / 高度示範
          ====================== -->
-    <h2>寬度 / 高度示範</h2>
+    <h2>box 寬度 / 高度示範</h2>
     <hr class="mb-4" />
 
     <div class="w-56 h-56 bg-blue-500"></div>
+    <hr class="mb-8" />
+
+    <!-- ======================
+        Position 定位示範
+        ====================== -->
+    <h2>Position 定位示範</h2>
+    <hr class="mb-4" />
+
+    <div class="bg-gray-200 p-3 mb-4 border border-gray-400">
+        1. Static (靜態定位) - 預設排列。
+    </div>
+
+    <div class="relative bg-blue-200 p-3 mb-8 border border-blue-600 left-8">
+        2. Relative (相對定位) - left-8 讓它相對於原始位置向右移動 8 單位。
+    </div>
+
+    <div class="text-lg font-bold mt-8 mb-4">以下元素會被絕對定位元素覆蓋：</div>
+
+    <div class="relative bg-red-200 p-10 h-40 mb-20 border border-red-600">
+        3. Relative 父元素 (絕對定位參考點)
+
+        <div class="absolute top-0 left-0 bg-red-600 text-white p-2">
+            Absolute 子元素 - 脫離文檔流，定位在父元素左上角。
+        </div>
+
+        <div class="mt-8">注意：上面的 Absolute 元素已脫離文檔流，不佔空間。</div>
+    </div>
+
+    <div class="fixed top-0 right-0 bg-green-500 text-white p-3 z-50">
+        4. Fixed (固定定位) - 滾動頁面看效果！
+    </div>
     <hr class="mb-8" />
 
     <!-- ======================
